@@ -6,6 +6,8 @@ import java.util.List;
 public class Observerable implements IObserverable {
 
 	private List<IObserver> observers = new ArrayList<>();
+	// is thread safe
+	// private Vector<IObserver> observers = new Vector<>();
 	
 	@Override
 	public void eat() {
