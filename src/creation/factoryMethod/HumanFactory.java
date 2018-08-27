@@ -9,9 +9,7 @@ public class HumanFactory extends AbstractHumanFactory {
         BlackHuman human = humanFactory.createHuman(BlackHuman.class);
         human.getColor();
         human.talk();
-        human.test1();
         // 接口中的静态方法也只能根据类名来调用
-        Human.test2();
     }
 
     /**
