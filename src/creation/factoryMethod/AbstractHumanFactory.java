@@ -1,4 +1,4 @@
-package behavior.creation.factoryMethod;
+package creation.factoryMethod;
 
 public abstract class AbstractHumanFactory {
 
